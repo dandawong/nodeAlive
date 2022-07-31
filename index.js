@@ -1,6 +1,6 @@
 var CronJob = require('cron').CronJob;
 const fs = require('fs');
-const pMinute = 15;
+const pMinute = 5;
 const dir = 'output'
 
 // Create output folder if not exist
@@ -8,7 +8,7 @@ if (!fs.existsSync(dir)){
   fs.mkdirSync(dir);
 }
 
-// Run job ever 15 minutes
+// Run job ever pMinute
 var job = new CronJob(
 	`* */${pMinute} * * * *`,
 	function() {
