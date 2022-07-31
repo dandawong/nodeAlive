@@ -1,0 +1,22 @@
+{
+  "name": "nodealive",
+  "version": "1.0.0",
+  "description": "log machine alive time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandawong/nodeAlive.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dandawong/nodeAlive/issues"
+  },
+  "homepage": "https://github.com/dandawong/nodeAlive#readme",
+  "dependencies": {
+    "cron": "^2.1.0"
+  }
+}
