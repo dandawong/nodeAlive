@@ -10,7 +10,7 @@ if (!fs.existsSync(dir)){
 
 // Run job ever pMinute
 var job = new CronJob(
-	`* */${pMinute} * * * *`,
+	`0 */${pMinute} * * * *`,
 	function() {
     let now = new Date();
     let year = now.getFullYear()
